@@ -4,7 +4,7 @@ Name
 
 (masa1203追記)
 ====
-このレポジトリはデータサイエンス100本ノックをクローンして自分で追記したものです。
+このレポジトリは[データサイエンス100本ノック](https://github.com/The-Japan-DataScientist-Society/100knocks-preprocess.git)をクローンして自分で追記したものです。
 環境構築手順を記録しておきます。
 
 ``` bash
