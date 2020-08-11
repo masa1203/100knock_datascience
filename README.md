@@ -2,6 +2,29 @@ Name
 ====
 データサイエンス100本ノック（構造化データ加工編）
 
+(masa1203追記)
+====
+このレポジトリはデータサイエンス100本ノックをクローンして自分で追記したものです。
+環境構築手順を記録しておきます。
+
+``` bash
+# レポジトリのクローン
+$ git clone https://github.com/The-Japan-DataScientist-Society/100knocks-preprocess.git
+$ cd 100knocks-preprocess
+
+# 自分のremote repositoryを作成
+# これがないとremote repositoryを追加できない
+$ sudo chown .git
+
+# remote repositoryの追加
+$ git remote set-url practice git@github.com:masa1203/100knock_datascience_practice.git
+
+# 自分のレポジトリに追加するとき
+$ git add .
+$ git commit -m "message"
+$ git push practice master
+```
+
 Overview
 ====
 - データサイエンス100本ノック（構造化データ加工編）を実践するための演習問題とデータ、および環境構築のためのスクリプト一式
